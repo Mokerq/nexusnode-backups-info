@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — Nexus Node Web App Backups</title>
+<main>
+<h1>Privacy policy</h1>
+<p>Last updated: November 5, 2026</p>
+<p>This policy describes the personal Google Drive backup utility for Nexus Node Web App. It is used by the operator to back up their own NexusNode installation.</p>
+<h2>Information accessed and used</h2>
+<p>The utility uses Google OAuth credentials to access Drive files and folders permitted by the drive.file scope. It creates backup archives, lists backup metadata, downloads backup contents for verification or restoration, and deletes older backup files according to the operator's retention settings.</p>
+<p>Archives may contain NexusNode database records, user sessions, uploaded images, configuration secrets, and the application image. Archives are not encrypted by this utility. The operator controls the destination account and folder permissions.</p>
+<h2>Storage and sharing</h2>
+<p>OAuth credentials are stored in access-restricted configuration files on the operator's server. Backup archives are stored on that server and in the operator's Google Drive. The utility does not sell Google user data, use it for advertising, or transfer it to unrelated third parties. Google processes files as the selected storage provider.</p>
+<h2>Retention and control</h2>
+<p>The operator configures backup retention and can delete local and Drive copies. Revoking the utility's access through Google Account settings stops future authorized access but does not delete existing backups. To stop scheduled backups, the operator can disable the backup timer on the server.</p>
+<h2>Contact</h2>
+<p>For questions, use the user support email shown on this application's Google OAuth consent screen.</p>
+<p><a href="index.html">Home</a></p>
+</main>
+</html>
